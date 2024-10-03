@@ -39,6 +39,23 @@ print(list2)                    #printing the list2
 
 
 
+3. Sorting:
+• Sort the remaining persons based on their city in alphabetical order..
+
+code:
+
+list=[
+     {"name":"ram","age":"23","city":"indore"},          
+     {"name":"shyam","age":"24","city":"bhopal"},
+     {"name":"rahul","age" : "25","city":"mumbai"}
+]
+
+person = sorted(list,key=lambda list: list["city"])     #sorting the  list based on their city in alphabetical order.
+print(person)                       
+
+
+
+
 4. Output:
 • Print the final list of persons to the console, including their name, age, and city.
 
@@ -47,6 +64,8 @@ outputs:
 1: [{'name': 'ram', 'age': '23', 'city': 'indore'}, {'name': 'shyam', 'age': '24', 'city': 'bhopal'}, {'name': 'rahul', 'age': '25', 'city': 'mumbai'}]
 
 2: [{'name': 'ram', 'age': '23', 'city': 'indore'}, {'name': 'shyam', 'age': '24', 'city': 'bhopal'}]
+
+3: [{'name': 'shyam', 'age': '24', 'city': 'bhopal'}, {'name': 'ram', 'age': '23', 'city': 'indore'}, {'name': 'rahul', 'age': '25', 'city': 'mumbai'}]
 
 
 
