@@ -27,14 +27,12 @@ list=[
      {"name":"rahul","age" : "25","city":"mumbai"}
 ]
 
-                               #create the empty list
-list2 = []                      # all list items enter in i .
+                              
+list2 = []                      #create the empty list    
 
-for i in list:
+for i in list:                  # all list items enter in i .
     if i['age']<str(25):        # filter out the  person whose under age of 25.
-    
         list2.append(i)         # all i items append in list
-
 print(list2)                    #printing the list2
 
 
