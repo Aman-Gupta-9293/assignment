@@ -1,0 +1,74 @@
+Assignment 2: Python - Data Manipulation...
+
+1. Data Preparation:
+• Create a list of dictionaries where each dictionary represents a person with attributes "name," "age,"
+and "city." Include at least three persons in the list.
+
+code: 
+
+list=[{"name":"ram",                    # create alist of dict 
+      "age":"23",
+      "city":"indore"},
+
+       {"name":"shyam",
+      "age":"24",
+      "city":"bhopal",},
+
+      { "name":"rahul",
+       "age" : "25",
+       "city":"mumbai" }]
+
+print(list)                  #print the list 
+
+
+
+2. Filtering:
+• Filter out persons who are under the age of 25.
+
+code:
+                             
+list=[{"name":"ram",             #create the list 
+      "age":"23",
+      "city":"indore"},
+
+       {"name":"shyam",
+      "age":"24",
+      "city":"bhopal",},
+
+      { "name":"rahul",
+       "age" : "25",
+       "city":"mumbai" }]
+
+                                #create the empty list
+list2 = []                      # all list items enter in i .
+
+for i in list:
+    if i['age']<str(25):        # filter out the  person whose under age of 25.
+    
+        list2.append(i)         # all i items append in list
+
+print(list2)                    #printing the list2
+
+
+
+4. Output:
+• Print the final list of persons to the console, including their name, age, and city.
+
+outputs: 
+
+1: [{'name': 'ram', 'age': '23', 'city': 'indore'}, {'name': 'shyam', 'age': '24', 'city': 'bhopal'}, {'name': 'rahul', 'age': '25', 'city': 'mumbai'}]
+
+2: [{'name': 'ram', 'age': '23', 'city': 'indore'}, {'name': 'shyam', 'age': '24', 'city': 'bhopal'}]
+
+
+
+
+
+
+
+
+
+
+
+
+
