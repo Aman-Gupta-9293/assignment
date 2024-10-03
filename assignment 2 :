@@ -5,18 +5,12 @@ Assignment 2: Python - Data Manipulation...
 and "city." Include at least three persons in the list.
 
 code: 
-
-list=[{"name":"ram",                    # create alist of dict 
-      "age":"23",
-      "city":"indore"},
-
-       {"name":"shyam",
-      "age":"24",
-      "city":"bhopal",},
-
-      { "name":"rahul",
-       "age" : "25",
-       "city":"mumbai" }]
+ 
+list=[
+     {"name":"ram","age":"23","city":"indore"},           # create a list of dict 
+     {"name":"shyam","age":"24","city":"bhopal"},
+     {"name":"rahul","age" : "25","city":"mumbai"}
+]
 
 print(list)                  #print the list 
 
@@ -27,19 +21,13 @@ print(list)                  #print the list
 
 code:
                              
-list=[{"name":"ram",             #create the list 
-      "age":"23",
-      "city":"indore"},
+list=[
+     {"name":"ram","age":"23","city":"indore"},           # create a list of dict 
+     {"name":"shyam","age":"24","city":"bhopal"},
+     {"name":"rahul","age" : "25","city":"mumbai"}
+]
 
-       {"name":"shyam",
-      "age":"24",
-      "city":"bhopal",},
-
-      { "name":"rahul",
-       "age" : "25",
-       "city":"mumbai" }]
-
-                                #create the empty list
+                               #create the empty list
 list2 = []                      # all list items enter in i .
 
 for i in list:
