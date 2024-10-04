@@ -1,0 +1,44 @@
+2. 1: HTML :
+• Create an HTML file named "index.html" with a simple form that allows users to input text into three
+separate fields.
+
+code: 
+
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Form</title>
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Simple Form:-</h2>
+      <form action="#" method="POST">
+        <label for="fname">First name:</label>
+        <input type="text" id="first-name" name="first name" required ><br><br>
+        
+        <label for="lname">Last name:</label>
+        <input type="text" id="last name" name="last name" required ><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required ><br><br><br>
+      
+        <button type="button" onclick="alert('Form Submitted')">Submit</button>
+      </form>
+   </div> 
+</body>
+
+</html>
+
+2:CSS
+
+• Style the form using a CSS file named "styles.css" to make it visually appealing.
+
+
+
+
+
+
+
